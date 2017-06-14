@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+// #include <unistd.h>
  
 #define for_x for (int x = 0; x < w; x++)
 #define for_y for (int y = 0; y < h; y++)
@@ -41,7 +41,7 @@ void game(int w, int h)
 	while (1) {
 		show(univ, w, h);
 		evolve(univ, w, h);
-		usleep(200000);
+//		usleep(200000);
 	}
 }
  
