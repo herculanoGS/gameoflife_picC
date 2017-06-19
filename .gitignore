@@ -3,3 +3,5 @@ gof
 *.d
 *.p1
 *.pre
+/html
+/latex
