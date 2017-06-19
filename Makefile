@@ -3,3 +3,6 @@ gof: C_gameoflife_serial.c
 	
 gof.hex: C_gameoflife_serial.c
 	xc8 --chip=18F4550 --codeoffset=0x1000 C_gameoflife_serial.c --OUTPUT gof.hex
+
+clean: 
+	rm -rf *.pre *.p1 *.d gof gof.hex

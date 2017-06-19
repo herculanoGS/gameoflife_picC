@@ -19,3 +19,10 @@ make gof.hex
 ## referências
 
 - https://www.youtube.com/watch?v=mTjyZercsE8
+
+
+## Copyright
+
+- Available under GNU Free Documentation License 1.2
+- http://rosettacode.org/wiki/Conway%27s_Game_of_Life#C
+- All Rights reserved to rosettacode.org
