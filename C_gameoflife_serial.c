@@ -15,6 +15,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <p18f4550.h>
+#include <usart.h>
+#include <timers.h>
+#include <GenericTypeDefs.h>
 
 #ifdef TERMINAL
 // flag to use when we're printing directly to terminal on ARM/x86
@@ -106,4 +110,14 @@ void game()
 int main(int c, char **v)
 {
 	game();
+	
+	/*Pre-emptively terminates the UART communication to establish a new communication*/
+    CloseUSART();
+
+	/*Assigns the config variable, the configurations required to initialize the UART
+Based on the macros of the usart.h library*/
+    config = USART_TX_INT_OFF | USART_RX_INT_OFF | USART_ASYNCH_MODE | USART_EIGHT_BIT | USART_CONT_RX | USART_BRGH_LOW;
+
+	/*baud rate definitions*/
+    baudUSART (BAUD_8_BIT_RATE | BAUD_AUTO_OFF);
 }
