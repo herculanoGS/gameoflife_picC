@@ -30,7 +30,10 @@ make gof.hex
 ## Passos para o próximo trabalho
 
 - Medir:
--- Tempo de computação
--- memoria de dados
--- memoria de código
--- energia (corrente, Tensão)
+  - Tempo de computação
+  - memoria de dados
+  - memoria de código
+  - energia (corrente, Tensão)
+  - Escolher um dos parametros para melhorar otimizar em uma das implementações
+  - Refazer as medições após a otimização.
+  
