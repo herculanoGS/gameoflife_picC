@@ -36,4 +36,4 @@ make gof.hex
   - energia (corrente, Tensão)
   - Escolher um dos parametros para melhorar otimizar em uma das implementações
   - Refazer as medições após a otimização.
-  
+  - https://raspberrypi.stackexchange.com/questions/4356/get-cpu-and-gpu-usage-on-raspberry-pi
