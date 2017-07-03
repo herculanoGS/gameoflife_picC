@@ -26,3 +26,11 @@ make gof.hex
 - Available under GNU Free Documentation License 1.2
 - http://rosettacode.org/wiki/Conway%27s_Game_of_Life#C
 - All Rights reserved to rosettacode.org
+
+## Passos para o próximo trabalho
+
+- Medir:
+-- Tempo de computação
+-- memoria de dados
+-- memoria de código
+-- energia (corrente, Tensão)
